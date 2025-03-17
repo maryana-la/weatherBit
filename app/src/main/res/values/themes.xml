@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MobileWeatherApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:textColor">@color/white</item>
+<!-- standart color of the text on the tabs -->
+
+        <item name="android:editTextColor">@color/white</item>
+<!-- while user is typing in searchview       -->
+        <item name="android:textColorHint">@color/white</item>
+
+
+<!--        <item name="android:textColorHint">@color/light_blue</item>-->
+<!--        <item name="android:iconTint">@color/light_blue</item>-->
+<!--        <item name="closeIconTint">@color/light_blue</item>-->
+<!--        <item name="iconTint">@color/light_blue</item>-->
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+<!--    <style name="CustomSearchViewTheme" parent="Theme.MaterialComponents.Light">-->
+<!--        <item name="colorControlNormal">@color/ivory</item>-->
+<!--        <item name="android:textColor">@color/ivory</item>-->
+<!--        <item name="android:textColorPrimary">@color/white</item>-->
+<!--        <item name="android:textColorSecondary">@color/blue</item>-->
+<!--    </style>-->
+
+
+    <style name="Theme.MobileWeatherApp" parent="Base.Theme.MobileWeatherApp" />
+</resources>

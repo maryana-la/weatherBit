@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">WeatherBit</string>
+    <string name="today">Today</string>
+    <string name="currently">Currently</string>
+    <string name="weekly">Weekly</string>
+    <string name="getCurrentLocation">Use current location</string>
+    <string name="hintSearchView">Search location…</string>
+    <string name="temperature_text">%1$s %2$s</string>
+    <string name="wind_text">%1$s %2$s %3$s</string>
+    <string name="weather_illustration">weather_illustration</string>
+    <string name="background_photo">background_photo</string>
+    <string name="wind_icon">wind_icon</string>
+    <string name="city_icon">city_icon</string>
+</resources>

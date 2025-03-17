@@ -1,0 +1,32 @@
+package com.mobilepiscine42.advanced_weather_app.reverse_geocoding_api
+
+data class Address(
+    val AddNum: String,
+    val Addr_type: String,
+    val Address: String,
+    val Block: String,
+    val City: String,
+    val CntryName: String,
+    val CountryCode: String,
+    val District: String,
+    val InputX: Double,
+    val InputY: Double,
+    val LongLabel: String,
+    val Match_addr: String,
+    val MetroArea: String,
+    val Neighborhood: String,
+    val PlaceName: String,
+    val Postal: String,
+    val PostalExt: String,
+    val Region: String,
+    val RegionAbbr: String,
+    val Sector: String,
+    val ShortLabel: String,
+    val StrucDet: String,
+    val StrucType: String,
+    val Subregion: String,
+    val Territory: String,
+    val Type: String,
+    val X: Double,
+    val Y: Double
+)

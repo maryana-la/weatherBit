@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/city_icon"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_gravity="center"
+            android:contentDescription="@string/city_icon"
+            app:tint="@color/grey" />
+
+        <TextView
+            android:id="@+id/cityName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingStart="8dp"
+            android:paddingEnd="4dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:maxWidth="250sp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/cityRegion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:textSize="14sp"
+            android:maxLength="20"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/grey" />
+
+        <TextView
+            android:id="@+id/cityCountry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:textSize="14sp"
+            android:maxLength="20"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/grey" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/grey" />
+
+</LinearLayout>
